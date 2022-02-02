@@ -1,0 +1,24 @@
+.search-container {
+  background-color: rgba(0, 0, 0, 0.856);
+  text-align: center;
+  line-height: 40px;
+}
+.search-container input {
+  border: none;
+  /* line-height: 30px; */
+  width: 75%;
+}
+.shop-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  position: relative;
+}
+.product-container {
+  border-right: 1px solid lightgray;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.cart-container {
+  position: fixed;
+  right: 140px;
+}
